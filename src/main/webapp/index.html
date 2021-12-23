@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Login</title>
+</head>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<body>
+
+<div class="card mx-auto col-sm-4" style="margin-top: 10%;">
+    <div class="card-header text-white" style="background-color: crimson">Admin Login</div>
+    <div class="card-body">
+        <form id="login-validation">
+            <div class="mb-3 row">
+                <label for="eid" class="col-auto col-form-label">User ID:</label>
+                <div class="col-sm-4" style="margin-left: 7%;">
+                    <input type="number" id="eid">
+                </div>
+            </div>
+            <div class="mb-4 row">
+                <label for="pwd" class="col-auto col-form-label">Password:</label>
+                <div class="col-sm-7">
+                    <input type="password" class="form-control" id="pwd">
+                </div>
+            </div>
+            <div class="col-auto" style="margin-left: 40%">
+                <button type="submit" id="submit-button" class="btn btn-primary mb-2">Submit</button>
+            </div>
+            <!--            <button class="btn btn-lg btn-primary btn-block" disabled id="spinner-button" style="display: none;" type="submit">
+                            <span aria-hidden="true" class="spinner-border spinner-border-sm" role="status"></span>
+                            Login in Progress...
+                        </button>-->
+<!--            <div class="alert alert-warning" id="login-alert" role="alert" style="display: none; margin-top: 20px">-->
+<!--                Invalid Credentials-->
+<!--            </div>-->
+<!--            <div class="alert alert-warning" id="login-alert" role="alert" style="display: none; margin-top: 20px">-->
+<!--                Invalid Credentials-->
+<!--            </div>-->
+        </form>
+    </div>
+</div>
+
+</body>
+
+<script src="assets/js/login-validation.js"></script>
+</html>

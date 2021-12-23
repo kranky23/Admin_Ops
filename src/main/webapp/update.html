@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Login</title>
+</head>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<body>
+
+<div class="card mx-auto col-sm-4" style="margin-top: 10%;">
+    <div class="card-header text-white" style="background-color: crimson">Domain Update</div>
+    <div class="card-body">
+        <form id="update-details">
+            <div class="mb-3 row">
+                <label for="roll" class="col-auto col-form-label">student UserID</label>
+                <div class="col-sm-4" style="margin-left: 7%;">
+                    <input type="number" id="roll">
+                </div>
+            </div>
+            <div class="mb-4 row">
+                <label for="dom_id" class="col-auto col-form-label">New DomainID:</label>
+                <div class="col-sm-7">
+                    <input type="number" class="form-control" id="dom_id">
+                </div>
+            </div>
+            <div class="col-auto" style="margin-left: 40%">
+                <button type="submit" id="submit-button" class="btn btn-primary mb-2">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+</body>
+
+<script src="assets/js/update.js"></script>
+</html>
